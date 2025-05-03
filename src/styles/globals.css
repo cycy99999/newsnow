@@ -1,5 +1,6 @@
 @import url(@unocss/reset/tailwind.css);
 @import url(overlayscrollbars/overlayscrollbars.css);
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cn-fontsource-fz-shu-song-z-01-regular/font.css">
 
 html,
 body,
@@ -8,12 +9,6 @@ body,
   margin: 0;
   padding: 0;
 }
-
-@font-face {
-  font-family: 'Baloo 2';
-  src: url("/Baloo2-Bold.subset.ttf");
-}
-
 
 html.dark {
   color-scheme: dark;
@@ -24,6 +19,7 @@ body {
   -moz-user-select: none;
   -webkit-user-select: none;
   user-select: none;
+  font-family: 'FZShuSong-Z01', serif !important;
 }
 
 .p-4 {
@@ -44,13 +40,11 @@ button:disabled {
   border-radius: 8px;
 }
 
-/* https://github.com/KingSora/OverlayScrollbars/blob/master/packages/overlayscrollbars/src/styles/themes.scss */
 .dark .os-theme-dark {
   --os-handle-bg: rgba(255, 255, 255, 0.44);
   --os-handle-bg-hover: rgba(255, 255, 255, 0.55);
   --os-handle-bg-active: rgba(255, 255, 255, 0.66);
 }
-
 
 *, a, button {
   cursor: default;
@@ -60,7 +54,6 @@ button:disabled {
 #dropdown-menu li {
   --at-apply: hover:bg-neutral-400/10 rounded-md flex items-center p-1 gap-1;
 }
-
 
 .grabbing * {
   cursor: grabbing;
