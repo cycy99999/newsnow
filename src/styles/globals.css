@@ -30,6 +30,11 @@ body {
   padding: 1rem 2.5rem 1rem 0rem !important;
 }
 
+.px-4 {
+  padding-left: 0 !important;
+  padding-right: 1rem !important;
+}
+
 button:disabled {
   cursor: not-allowed;
   pointer-events: all !important;
