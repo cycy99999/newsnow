@@ -37,7 +37,6 @@ export const CardWrapper = forwardRef<HTMLElement, ItemsProps>(({ id, isDragging
         // "backdrop-blur-5",
         "transition-opacity-300",
         isDragging && "op-50",
-        `bg-${sources[id].color}-500 dark:bg-${sources[id].color} bg-op-40!`,
       )}
       style={{
         transformOrigin: "50% 50%",

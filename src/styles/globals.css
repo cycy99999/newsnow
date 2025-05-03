@@ -26,6 +26,10 @@ body {
   user-select: none;
 }
 
+.p-4 {
+  padding: 1rem 1.5rem 1rem 0rem !important;
+}
+
 button:disabled {
   cursor: not-allowed;
   pointer-events: all !important;
